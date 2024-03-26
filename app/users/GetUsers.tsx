@@ -8,6 +8,7 @@ const GetUsers = () => {
     const [isLoading, setLoading] = useState(true);
 
     useEffect(() => {
+        // data being received is a promise type from useUsers ~ put into an async func
         async function getUsers() {
             const returnData = await useUsers();
             const returnRes = returnData.res;

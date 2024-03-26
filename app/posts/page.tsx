@@ -2,9 +2,12 @@ import React from 'react'
 
 const page = () => {
     return (
-        <div>
-            Posts
-        </div>
+        <>
+            <div className="header">
+                <div className="heading">Welcome to the Posts Page</div>
+            </div>
+
+        </>
     )
 }
 
