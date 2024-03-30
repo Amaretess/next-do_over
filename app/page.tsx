@@ -13,7 +13,7 @@ export default function Home() {
           <Link href="/posts">Posts</Link>
         </NavItem>
         <NavItem>
-          <Link href="/users">ToDos</Link>
+          <Link href="/todos">ToDos</Link>
         </NavItem>
       </NavBar>
       <div>
