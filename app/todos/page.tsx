@@ -21,7 +21,7 @@ const page = () => {
         <>
             <h1>Welcome to the todos page!</h1>
             <ul>
-                {todos.map((todo) => (
+                {todos.slice(0, 10).map((todo) => (
                     <>
                         <li key={todo.id} >{todo.title}</li>
                     </>
